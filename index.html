@@ -16,7 +16,7 @@
       iframe.style.border = 'none';       
       var specifiedWebsite;    do {        specifiedWebsite = prompt("Enter the website URL:");    }
       while (specifiedWebsite === null);     
-      specifiedWebsite = "https://" + specifiedWebsite;  
+      specifiedWebsite = "https://" + specifiedWebsite; 
       iframe.src = specifiedWebsite;     
       document.body.innerHTML = '';
       document.body.appendChild(iframe);})();
